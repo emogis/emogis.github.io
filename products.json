@@ -1,12 +1,12 @@
 {
 	"products" : [
 		{
-			"name" : "Awesome T-shirt",
+			"name" : "afgan kush",
 			"price" : "35.99",
 			"options" : [
-				{ "Size" : "Small,Medium,Large" }
+				{ "Size" : "" }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/c/c6/Grey_Tshirt.jpg",
+			"image" : "images/product/afgan kush.JPG",
 			"description" : "This is a very awesome grey T-shirt"
 		},
 		{
