@@ -10,14 +10,14 @@
 			"description" : "kush"
 		},
 		{
-			"name" : "Other Shit",
+			"name" : "Super Silver Haze",
 			"price" : "1.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Blue,Red" },
 			    { "OneOfAKind" : true }
 			],
-			"image" : "http://upload.wikimedia.org/wikipedia/commons/2/24/Blue_Tshirt.jpg",
+			"image" : "images/product/Super Silver Haze.JPG",
 			"description" : "This is a really cool blue T-shirt"
 		},
 		{
