@@ -10,7 +10,7 @@
 			"description" : "kush"
 		},
 		{
-			"name" : "Cool T-shirt",
+			"name" : "Other Shit",
 			"price" : "15.99",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
