@@ -11,7 +11,7 @@
 		},
 		{
 			"name" : "Other Shit",
-			"price" : "15.99",
+			"price" : "1.00",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Blue,Red" },
