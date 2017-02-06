@@ -6,8 +6,7 @@ body{
 .container {
   width:960px;
   margin: 0 auto;
-  margin-top: 200px;
-}
+  }
 
 .header {
   background: #6396bc;
@@ -38,3 +37,6 @@ li{
   float: center;
   margin-left: 400px;
   }
+.content{
+  margin-top: 120px;
+}
