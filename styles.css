@@ -34,5 +34,6 @@ li{
 }
 
 .nav{
-  float: right;
+  float: center;
+  margin-left: 300px;
   }
