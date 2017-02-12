@@ -36,6 +36,7 @@ li{
 .nav{
   float: center;
   margin-left: 400px;
+  font-size: 30px;
   }
 .content{
   margin-left: 103px;
@@ -239,4 +240,5 @@ footer{
 .footer-container{
   float:left;
   margin-left: 300px;
+  font-size: 20;
 }
