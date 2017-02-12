@@ -21,11 +21,11 @@ body{
   font-size: 15px;
 }
 
-nav a{
+a{
   text-decoration: none;
   color: #fff;
 }
-nav li{
+li{
   list-style: none;
   float: left;
   margin-left: 15px;
@@ -33,7 +33,7 @@ nav li{
   margin-right:100px;
 }
 
-header nav{
+.nav{
   float: center;
   margin-left: 400px;
   }
@@ -234,8 +234,4 @@ footer{
   width: 100%;
   background-color: #222;
   padding: 60px 0px;
-}
-
-footer nav{
-  float: center;
 }
