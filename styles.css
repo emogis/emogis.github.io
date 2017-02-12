@@ -310,11 +310,11 @@ footer {
   }
 }
 
-.media screen and (min-width: 56em) {
+@media screen and (min-width: 56em) {
   .demo-nav a {padding: 0.75em 1.5em 0.75em 5%;}
 }
 
-.media screen and (min-width: 64em) {
+@media screen and (min-width: 64em) {
   footer .credit {
     padding: 0.75em 0;
   }
@@ -341,6 +341,6 @@ footer {
   .demo-nav li:last-child a {padding-right: 0;}
 }
 
-.media screen and (min-width: 75em) {
+@media screen and (min-width: 75em) {
   .demo-nav a {padding: 0.5em 1.75em;}
 }
