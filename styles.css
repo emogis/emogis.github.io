@@ -266,7 +266,7 @@ footer {
 .demo-nav li.current a {color: #9b9796;}
 .demo-nav li.current a:hover {color: #111;}
 
-.demo-nav a {
+#demo-nav a {
   color:#fff;
   padding: 0.75em 5%;
   text-decoration: none;
