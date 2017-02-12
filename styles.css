@@ -21,11 +21,11 @@ body{
   font-size: 15px;
 }
 
-a{
+nav a{
   text-decoration: none;
   color: #fff;
 }
-li{
+nav li{
   list-style: none;
   float: left;
   margin-left: 15px;
@@ -33,7 +33,7 @@ li{
   margin-right:100px;
 }
 
-.nav{
+header nav{
   float: center;
   margin-left: 400px;
   }
