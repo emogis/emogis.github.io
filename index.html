@@ -5,8 +5,6 @@
   <title> The Gym - Personal Training</title>
   <meta name="viewport" content="width=divice-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css"/>
-    
-
 </head>
 <body>
   <header>
@@ -23,18 +21,40 @@
         </ul>
       </nav>
   </header>
-  <div id="doc">
-    <div id="content">
-      <div class="blueberry">
-        <ul class="slide">
-          <li><img src="https://www.w3newbie.com/wp-content/uploads/inside-gym.png"/></li>
-          <li><img src="https://www.w3newbie.com/wp-content/uploads/push-ups.png"/></li>
-          <li><img src="https://www.w3newbie.com/wp-content/uploads/chest-fly.png"/></li>
-          <li><img src="https://www.w3newbie.com/wp-content/uploads/training.png"/></li>
-        </ul>
-      </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="img1.jpg" style="width:100%">
+      <div class="text">Caption Text</div>
     </div>
+  <div class="mySlides fade">
+    <img src="img2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
   </div>
+  <div class="mySlides fade">
+    <img src="img3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+    </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <div style="text-align:center;margin-top: -2em; margin-bottom: .8em;">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+      <script src="script.js"></script>
+  <div class="container-slide">
+    <div class="content">
+      <a href="#">
+        <img src="button.jpg" style="width:375px; length:175;" />
+        <img src="button.jpg" style="width:375px; length:175;" />
+        <img src="button.jpg" style="width:375px; length:175;" />
+        <img src="button.jpg" style="width:375px; length:175;" />
+      </a>
+  </div>
+  </div>
+
   <section>
     <img src="https://www.w3newbie.com/wp-content/uploads/trainers.png"/>
     <h1>Best Trainers Around!</h1>
