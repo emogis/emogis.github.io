@@ -18,6 +18,10 @@ body{
   margin-top: 110px;
   z-index: -1;
 }
+.container-slide{
+  margin-top: 0;
+  margin-left: 300px;
+} 
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -284,7 +288,3 @@ padding: 0;
 }
 }
 }
-.container-slide{
-  margin-top: 0;
-  margin-left: 300px;
-} 
