@@ -1,7 +1,7 @@
 /* http://www.menucool.com/jquery-slider */
 
 #thumbs2 {
-    height:300px; 
+    height:300px;
     display:inline-block;
     *display:inline; /* hack for old IE6-7 */
     background-color:#fff;
@@ -24,9 +24,9 @@
     margin:0 auto;
 }
 
- 
+
 #thumbs2 div.inner ul {
-    
+
     /*the followings should not be changed */
     position:relative;
     left:0; top:0;
@@ -44,7 +44,7 @@
     border: 4px solid transparent;
     outline:1px solid transparent;
     margin:0;
-    margin-bottom:3px; /* Spacing between thumbs*/
+    margin-bottom:6px; /* Spacing between thumbs*/
     box-sizing:content-box;
     text-align:center;
     padding:0;
@@ -64,7 +64,7 @@
 
 
 #thumbs2 .thumb {
-    
+
     width:100%;
     height: 100%;
     background-size:contain;
