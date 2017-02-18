@@ -5,7 +5,7 @@
     width:100%;/*width:400px;*/
     max-width:600px;
     padding:20px;
-    background-color:#f2f1ea;
+    background-color:#000000;
     box-shadow: 0 2px 6px rgba(0,0,0,0.3);
     box-sizing:border-box;
     position:relative;
@@ -53,7 +53,7 @@
 }
 
 #thumbnail-slider ul li.active {
-    border-color:#000000;
+    border-color:#ffffff;
 }
 
 #thumbnail-slider .thumb {
