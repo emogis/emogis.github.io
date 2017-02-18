@@ -21,7 +21,7 @@
     margin:0;
 }
 
- 
+
 #thumbnail-slider div.inner ul {
     /*the followings should not be changed */
     white-space:nowrap;
@@ -53,7 +53,7 @@
 }
 
 #thumbnail-slider ul li.active {
-    border-color:white;
+    border-color:#000000;
 }
 
 #thumbnail-slider .thumb {
@@ -86,7 +86,7 @@
     top: 50%;
     margin:0;
     margin-top:-30px;
-    color:white;    
+    color:white;
     z-index:10;
     cursor:pointer;
 }
