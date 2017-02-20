@@ -2093,6 +2093,7 @@ pre code {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
+    margin-left: 39px;
   }
   .col-lg-12 {
     width: 100%;
@@ -6253,6 +6254,7 @@ button.close {
 .carousel-inner > .item > a > img {
   line-height: 1;
 }
+
 @media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
