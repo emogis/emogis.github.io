@@ -6391,8 +6391,8 @@ button.close {
     background-color: #ccc;
     opacity: 0.6;
     padding: 0px 0px;
-    position: absolute;
-    margin-left: 67px;
+    position: relative;;
+    margin-right: 110px;
     top: 45%;
     z-index: 5;
     display: inline-block;
