@@ -288,3 +288,21 @@ padding: 0;
 }
 }
 }
+#arrowleft {
+    background-color: #FFF;
+    padding: 10px 8px;
+    position: absolute;
+    margin-left: -95px;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+}
+#arrowright {
+    background-color: #FFF;
+    padding: 10px 8px;
+    position: absolute;
+    margin-left: 67px;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+}
