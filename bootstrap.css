@@ -6390,12 +6390,14 @@ button.close {
 .carousel-control .icon-next:before {
   content: '\203a';
 }
+
 #arrowright {
     background-color: #717171;
     opacity: 0.6;
     padding: 0px 0px;
     position: relative;;
     margin-right: -180px;
+    margin-top: 65px;
     top: 45%;
     z-index: 5;
     display: inline-block;
@@ -6406,6 +6408,7 @@ button.close {
     padding: 0px 0px;
     position: relative;;
     margin-left: -180px;
+    margin-top: 65px;
     top: 45%;
     z-index: 5;
     display: inline-block;
