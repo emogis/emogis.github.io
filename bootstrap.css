@@ -6388,7 +6388,7 @@ button.close {
   content: '\203a';
 }
 #arrowright {
-    background-color: #ccc;
+    background-color: #717171;
     opacity: 0.6;
     padding: 0px 0px;
     position: relative;;
@@ -6398,7 +6398,7 @@ button.close {
     display: inline-block;
 }
 #arrowleft {
-    background-color: #ccc;
+    background-color: #717171;
     opacity:0.6;
     padding: 0px 0px;
     position: relative;;
