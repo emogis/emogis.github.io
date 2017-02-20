@@ -6391,7 +6391,7 @@ button.close {
     background-color: #ccc;
     opacity: 0.6;
     padding: 0px 0px;
-    position: right;
+    position: absolute;;
     margin-left: 67px;
     top: 45%;
     z-index: 5;
@@ -6399,9 +6399,9 @@ button.close {
 }
 #arrowleft {
     background-color: #ccc;
-    opacity:0.6; 
+    opacity:0.6;
     padding: 0px 0px;
-    position: left;
+    position: absolute;;
     margin-left: 67px;
     top: 45%;
     z-index: 5;
