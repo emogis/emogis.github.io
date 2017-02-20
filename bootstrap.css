@@ -6388,18 +6388,20 @@ button.close {
   content: '\203a';
 }
 #arrowright {
-    background-color: #FFF;
+    background-color: #ccc;
+    opacity: 0.6;
     padding: 0px 0px;
-    position: absolute;
+    position: right;
     margin-left: 67px;
     top: 45%;
     z-index: 5;
     display: inline-block;
 }
 #arrowleft {
-    background-color: #FFF;
+    background-color: #ccc;
+    opacity:0.6; 
     padding: 0px 0px;
-    position: absolute;
+    position: left;
     margin-left: 67px;
     top: 45%;
     z-index: 5;
