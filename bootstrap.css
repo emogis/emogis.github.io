@@ -6413,6 +6413,26 @@ button.close {
     z-index: 5;
     display: inline-block;
 }
+#arrowright2 {
+    background-color: #717171;
+    opacity: 0.6;
+    padding: 0px 0px;
+    position: relative;;
+    margin-right: -180px;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+}
+#arrowleft2 {
+    background-color: #717171;
+    opacity:0.6;
+    padding: 0px 0px;
+    position: relative;;
+    margin-left: -180px;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+}
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
