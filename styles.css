@@ -126,12 +126,12 @@ img{
   width: auto;
   }
 a{
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
 a:hover{
-  color: #fff;
+  color: #000000;
   text-decoration: underline;
   }
 header{
@@ -154,7 +154,7 @@ background: url(https://www.w3newbie.com/wp-content/uploads/the-gym.png) no-repe
 nav{
 float: center;
 padding: 35px 20px 20px 0;
-margin-left: 50px;
+margin-left: 276px;
 }
 #menu-icon{
 display: hidden, inline-block;
@@ -172,6 +172,7 @@ nav ul li{
 display: inline-block;
 float: left;
 padding: 10px;
+padding-left: 70px;
 }
 .current{
 color: #fff
