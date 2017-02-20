@@ -156,7 +156,7 @@ float: right;
 padding: 35px 20px 20px 0;
 }
 #menu-icon{
-display: hidden;
+display: hidden, inline-block;
 width: 40px;
 height: 40px;
 background: url(https://www.w3newbie.com/wp-content/uploads/icon.png) center;
@@ -248,9 +248,6 @@ position: absolute;
 @media screen and (max-width: 740px){
 header{
 position: absolute;
-}
-#menu-icon{
-display: inline-block;
 }
 nav ul, nav:active ul{
 display: none;
