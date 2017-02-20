@@ -6387,6 +6387,24 @@ button.close {
 .carousel-control .icon-next:before {
   content: '\203a';
 }
+#arrowright {
+    background-color: #FFF;
+    padding: 0px 0px;
+    position: absolute;
+    margin-left: 67px;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+}
+#arrowleft {
+    background-color: #FFF;
+    padding: 0px 0px;
+    position: absolute;
+    margin-left: 67px;
+    top: 45%;
+    z-index: 5;
+    display: inline-block;
+}
 .carousel-indicators {
   position: absolute;
   bottom: 10px;
