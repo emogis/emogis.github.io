@@ -154,6 +154,7 @@ background: url(https://www.w3newbie.com/wp-content/uploads/the-gym.png) no-repe
 nav{
 float: center;
 padding: 35px 20px 20px 0;
+margin-left: 50px;
 }
 #menu-icon{
 display: hidden, inline-block;
