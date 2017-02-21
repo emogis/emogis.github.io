@@ -147,9 +147,10 @@ header{
 #logo{
 margin: 20px;
 float: left;
-width: 200px;
-height: 60px;
+width: 300px;
+height: 86px;
 background: url("./img/logo.jpg") no-repeat center;
+
 }
 nav{
 float: center;
@@ -160,7 +161,7 @@ margin-left: 276px;
 display: hidden, inline-block;
 width: 40px;
 height: 40px;
-background: url(https://www.w3newbie.com/wp-content/uploads/icon.png) center;
+background: url("./img/cube1.jpg") center;
 }
 a:hover#menu-icon{
 border-radius: 4px 4px 0 0;
