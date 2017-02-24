@@ -153,9 +153,9 @@ background: url("./img/logo.jpg") no-repeat center;
 
 }
 nav{
-float: center;
+float: right;;
 padding: 35px 20px 20px 0;
-margin-left: 276px;
+margin-left: px;
 }
 #menu-icon{
 display: hidden, inline-block;
@@ -172,8 +172,8 @@ list-style: none;
 nav ul li{
 display: inline-block;
 float: left;
-padding: 10px;
-padding-left: 70px;
+padding: px;
+padding-left: px;
 }
 .current{
 color: #fff
