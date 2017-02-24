@@ -173,8 +173,8 @@ list-style: none;
 nav ul li{
 display: inline-block;
 float: left;
-padding: px;
-padding-left: px;
+padding-right: 110px;
+padding-left: 30px;
 }
 .current{
 color: #fff
