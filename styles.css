@@ -172,9 +172,9 @@ list-style: none;
 }
 nav ul li{
 display: inline-block;
-float: left;
-padding-right: 110px;
-padding-left: 30px;
+float: right;
+padding-right: 0px;
+padding-left: 0px;
 }
 .current{
 color: #fff
@@ -215,9 +215,9 @@ width: 35%;
 height: auto;
 padding: 3%;
 }
-ul.gym li{
+/*ul.gym li{
 padding-left: : 3%;
-}
+}*/
 footer{
 background-color: #333333;
 width: 100%;
@@ -267,7 +267,7 @@ border-radius: 2px 0 2px 2px;
 nav li{
 text-align: center;
 width: 100%;
-padding: 10px 0;
+padding: 0px 0;
 margin: 0;
 }
 nav:hoover ul{
