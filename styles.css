@@ -146,7 +146,7 @@ header{
 }
 #logo{
 margin: 0px;
-float: left;
+position: fixed; top:0; left:0;
 width: 100%;
 height: 100%;
 background: url("./img/logo.jpg") no-repeat center;
@@ -157,12 +157,12 @@ float: right;;
 padding: 35px 20px 20px 0;
 margin-left: px;
 }
-#menu-icon{
+/*#menu-icon{
 display: hidden, inline-block;
 width: 40px;
 height: 40px;
 background: url("./img/cube1.jpg") center;
-}
+}*/
 a:hover#menu-icon{
 border-radius: 4px 4px 0 0;
 }
