@@ -176,6 +176,9 @@ float: right;
 padding-right: 0px;
 padding-left: 0px;
 }
+.row{
+  color: #ffffff;
+}
 .current{
 color: #fff
 text-decoration:underline;
