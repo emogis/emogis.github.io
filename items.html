@@ -77,9 +77,25 @@
 
 #mainContainer {
 	padding-top: 85px;
+    padding-left: 200px;
 	background: #333333;
 }
+.nav {
+    border: 1px solid black;
+    height: 200px;
+    width:  200px;
+    z-index: 1;
+    position: fixed;
+    padding-top: 86;
+}
+.showItem{
+    display: block;
 
+}
+.hideItem{
+    display: none;
+
+}
 </style>
 </head>
 <body style="background:#333333;">
@@ -97,10 +113,26 @@
         </ul>
       </nav>
   </header>
+  <div class="nav">
+   <ul class="filterSection">
+        <li>
+            <input checked="true" type="checkbox" value="Hybrid" onclick=toggleHidden("Hybrid"); />
+            <label>Hybrid</label>
+        </li>
+        <li>
+            <input checked="false" type="checkbox" value="Sativa" onclick=toggleHidden("Sativa"); />
+            <label>Sativa</label>
+        </li>
+        <li>
+            <input checked="true" type="checkbox" value="Indica" onclick=toggleHidden("Indica"); />
+            <label>Indica</label>
+        </li>
+    </ul> 
+  </div>
 <div id="mainContainer">
 
         <!------------------------------ITEMS-------------------------------------------------------------------------------------------------->
-        <div class="items">
+        <div class="items Indica">
              <a href="#openModal">
                     <img class="thumb" src="images/Skywalker_OG.png" alt=""</img>
                     <div class="title">Skywalker OG</div>
@@ -121,7 +153,7 @@
         <!-------------------------------------------------------------------------------------------------------------------------------->
 
         <!------------------------------ITEMS-------------------------------------------------------------------------------------------------->
-        <div class="items">
+        <div class="items Indica">
              <a href="#openModal1">
                     <img class="thumb" src="images/Skywalker_OG.png" alt=""</img>
                     <div class="title">Skywalker OG</div>
@@ -142,7 +174,7 @@
         <!-------------------------------------------------------------------------------------------------------------------------------->
 
         <!------------------------------ITEMS-------------------------------------------------------------------------------------------------->
-        <div class="items">
+        <div class="items Hybrid">
              <a href="#openModal2">
                     <img class="thumb" src="images/Skywalker_OG.png" alt=""</img>
                     <div class="title">Skywalker OG</div>
@@ -165,7 +197,7 @@
 
 
         <!------------------------------ITEMS-------------------------------------------------------------------------------------------------->
-        <div class="items">
+        <div class="items Sativa">
              <a href="#openModal3">
                     <img class="thumb" src="images/Skywalker_OG.png" alt=""</img>
                     <div class="title">Skywalker OG</div>
@@ -188,7 +220,7 @@
 
 
         <!------------------------------ITEMS-------------------------------------------------------------------------------------------------->
-        <div class="items">
+        <div class="items Sativa">
              <a href="#openModal4">
                     <img class="thumb" src="images/Skywalker_OG.png" alt=""</img>
                     <div class="title">Skywalker OG</div>
@@ -210,8 +242,22 @@
 
 
 
-        <!--------------------    End  ----------------------------------->
+        <!--------------------End--------------------------------->
 </div>
+<script language="javascript">
+        function toggleHidden(type){
+			var x = document.getElementsByClassName(type);
+			console.log(x.length);
+			for (i=0; i < x.length; i++){
+				if (x[i].style.display === 'none') {
+						x[i].style.display = 'block';
+					} else {
+						x[i].style.display = 'none';
+					}  
+			}
+		};
+</script>
+
 </body>
 </html>
 
