@@ -6433,7 +6433,7 @@ button.close {
     padding: 0px 0px;
     position: relative;
     margin-right: -180px;
-    top: 45%;
+    top:90%;
     z-index: 5;
     display: inline-block;
 }
@@ -6443,7 +6443,7 @@ button.close {
     padding: 0px 0px;
     position: relative;;
     margin-left: -180px;
-    top: 45%;
+    top: 90%;
     z-index: 5;
     display: inline-block;
 }
