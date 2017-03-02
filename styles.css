@@ -157,6 +157,7 @@ nav{
 float: right;;
 padding: 35px 0px 0px 0px;
 margin-right: 100px;
+width: 100%;
 }
 /*#menu-icon{
 display: hidden, inline-block;
