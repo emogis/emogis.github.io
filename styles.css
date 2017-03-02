@@ -176,6 +176,10 @@ float: right;
 padding-right: 0px;
 padding-left: 0px;
 }
+nav ul li img{
+  max-width: 100%;
+}
+
 .current{
 color: #fff
 text-decoration:underline;
