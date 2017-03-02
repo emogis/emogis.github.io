@@ -20,7 +20,8 @@ body{
 }
 .container-slide{
   margin-top: 0;
-  margin-left: 300px;
+  margin-left: 250px;
+  float: left;
 }
 /* Next & previous buttons */
 .prev, .next {
