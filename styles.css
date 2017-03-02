@@ -19,7 +19,7 @@ body{
   z-index: -1;
 }
 .container-slide{
-  margin-top: 0;
+  margin-top: 40px;
   margin-left: 250px;
   float: left;
 }
