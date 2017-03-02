@@ -157,7 +157,6 @@ nav{
 float: right;;
 padding: 35px 0px 0px 0px;
 margin-right: 100px;
-width: 100%;
 }
 /*#menu-icon{
 display: hidden, inline-block;
@@ -176,6 +175,7 @@ display: inline-block;
 float: right;
 padding-right: 30px;
 padding-left: 0px;
+width: 100%;
 }
 .current{
 color: #fff
