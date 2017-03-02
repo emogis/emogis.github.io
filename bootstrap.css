@@ -1608,13 +1608,13 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-.row {
+.row2 {
   margin-right: -15px;
   margin-left: -15px;
   float: right;
   color: #ffffff;
 }
-.row2 {
+.row {
   margin-left: 350px;
   float: left;
   color: #ffffff;
