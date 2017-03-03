@@ -6318,20 +6318,20 @@ button.close {
   width: 100%;
 }
 .carousel-inner > .next {
-  left: 20%;
+  left: 100%;
 }
 .carousel-inner > .prev {
-  left: -20%;
+  left: -100%;
 }
 .carousel-inner > .next.left,
 .carousel-inner > .prev.right {
   left: 0;
 }
 .carousel-inner > .active.left {
-  left: -20%;
+  left: -100%;
 }
 .carousel-inner > .active.right {
-  left: 20%;
+  left: 100%;
 }
 
 
