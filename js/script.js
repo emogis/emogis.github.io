@@ -1,4 +1,4 @@
-$('.carousel .item').each(function(){
+$('.carousel .thumbnail').each(function(){
   var next = $(this).next();
   if (!next.length) {
     next = $(this).siblings(':first');
