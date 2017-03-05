@@ -116,15 +116,15 @@
   <div class="nav">
    <ul class="filterSection">
         <li>
-            <input checked="true" type="checkbox" value="Hybrid" onclick=toggleHidden("Hybrid"); />
+            <input id="0" checked="true" type="checkbox" value="Hybrid" onclick=toggleHidden("Hybrid"); />
             <label>Hybrid</label>
         </li>
         <li>
-            <input checked="false" type="checkbox" value="Sativa" onclick=toggleHidden("Sativa"); />
+            <input id="1" checked="false" type="checkbox" value="Sativa" onclick=toggleHidden("Sativa"); />
             <label>Sativa</label>
         </li>
         <li>
-            <input checked="true" type="checkbox" value="Indica" onclick=toggleHidden("Indica"); />
+            <input id="2" checked="true" type="checkbox" value="Indica" onclick=toggleHidden("Indica"); />
             <label>Indica</label>
         </li>
     </ul> 
@@ -241,13 +241,12 @@
         <!-------------------------------------------------------------------------------------------------------------------------------->
 
 
-
         <!--------------------End--------------------------------->
 </div>
 <script language="javascript">
+
         function toggleHidden(type){
 			var x = document.getElementsByClassName(type);
-			console.log(x.length);
 			for (i=0; i < x.length; i++){
 				if (x[i].style.display === 'none') {
 						x[i].style.display = 'block';
@@ -255,7 +254,29 @@
 						x[i].style.display = 'none';
 					}  
 			}
-		};
+        };
+        
+        function toggleCheckBox(strID){
+        
+            var y = document.getElementById(strID).checked;
+            document.getElementById(strID).checked=false;
+            switch (+strID){
+            case 0:
+                        toggleHidden("Hybrid");
+                        break;
+            case 1:
+                        toggleHidden("Sativa");
+                        break;
+            case 2:
+                        toggleHidden("Indica");
+                        break;
+             };
+
+        };
+        localStorage.setItem("varLink" , "2");
+        var link = localStorage.getItem("varLink");
+        toggleCheckBox(link);
+        localStorage.removeItem("varLink");        
 </script>
 
 </body>
