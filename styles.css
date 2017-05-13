@@ -214,7 +214,7 @@ a img{
 }
 
 .android-screens {
-  text-align: right;
+  text-align: center;
   width: 100%;
   white-space: nowrap;
   overflow-x: auto;
@@ -236,8 +236,9 @@ a img{
 
 .android-wear {
   display: inline-block;
-  width: 160px;
-  margin-right: 32px;
+  width: 220px;
+  height: 320px;
+  margin-right: 12px;
 }
 
   .android-wear .android-screen-image {
