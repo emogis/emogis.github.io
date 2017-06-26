@@ -62,8 +62,8 @@ a img{
 
 
 .android-logo-image {
-  height: 56px;
-  width: 151px;
+//  height: 56px;
+// width: 151px;
 }
 
 
@@ -407,6 +407,7 @@ a img{
   .android-card-container .mdl-card__title {
     background: transparent;
     height: auto;
+    align-self: center;
   }
 
   .android-card-container .mdl-card__title-text {
@@ -467,7 +468,7 @@ a img{
 
 
 /**** Mobile layout ****/
-@media (max-width: 900px) {
+@media (max-width: 1900px) {
   .android-navigation-container {
     display: none;
   }
@@ -479,7 +480,7 @@ a img{
   .android-mobile-title {
     display: block !important;
     position: absolute;
-    left: calc(50% - 70px);
+    left: calc(50% - 130px);
     top: 12px;
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -638,4 +639,11 @@ a img{
 }
 .subCatagory{
     padding-left: 25px;
+}
+.centered-title{
+    text-align: center;
+    font-size: 1.5em;
+}
+.mdl-shadow--3dp{
+  box-shadow: none;
 }
